@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Socket.io Extension",
+  "version": "1.0",
+  "permissions": ["notifications", "activeTab", "offscreen"],
+  "background": {
+    "service_worker": "background.js",
+    "module": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "wa-blur-16.png",
+      "48": "wa-blur-48.png",
+      "128": "wa-blur-128.png"
+    }
+  },
+  "icons": {
+    "16": "wa-blur-16.png",
+    "48": "wa-blur-48.png",
+    "128": "wa-blur-128.png"
+  }
+}
